@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const LogoConteiner = styled.div`
     display: flex;
     font-size: 30px;
-    margin-right: 30px;
+    margin-right: 10px;
 ` 
 
 const LogoImage = styled.img`
