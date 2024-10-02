@@ -58,8 +58,12 @@ function Pesquisa() {
     }
 
     async function insertFavorito(id) {
-        await postFavorito(id)
-        alert(`Livro de id: ${id} inserido!`)
+        try {
+            await postFavorito(id);
+            alert(`O livro do id ${id} foi inserido com sucesso nos Favoritos`)
+        } catch (error) {
+            console.error('Houve um problema com a chamada postFavorito: ', error);
+        }
     }
 
     return (
