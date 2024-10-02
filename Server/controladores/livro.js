@@ -27,7 +27,6 @@ function getLivro(req, res) {
     } 
 }
 
-
 function postLivro(req, res) {
     try {
         const livroNovo = req.body
