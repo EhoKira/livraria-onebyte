@@ -57,10 +57,10 @@ function Pesquisa() {
         setLivros(livrosDaAPI)
     }
 
-    async function insertFavorito(id) {
+    async function insertFavorito(livro) {
         try {
-            await postFavorito(id);
-            alert(`O livro do id ${id} foi inserido com sucesso nos Favoritos`)
+            await postFavorito(livro.id);
+            alert(`O livro ${livro.nome} foi inserido com sucesso nos Favoritos`)
         } catch (error) {
             console.error('Houve um problema com a chamada postFavorito: ', error);
         }
@@ -79,7 +79,7 @@ function Pesquisa() {
                 }}
             />
             { livrosPesquisados.map( livro => (
-                <Resultado onClick={() => insertFavorito(livro.id)}>
+                <Resultado key={livro.id} onClick={() => insertFavorito(livro)}>
                     <img src={livro.src}/>
                     <p>{livro.nome}</p>
                 </Resultado>

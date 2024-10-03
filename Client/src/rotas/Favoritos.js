@@ -6,7 +6,7 @@ import livroImg from '../imagens/livro.png'
 const AppContainer = styled.div`
       width: 100vw;
       height: 100vh;
-      background-image: linear-gradient(90deg, #FFA07A 35%, #FA8072);
+      background-image: linear-gradient(990deg, #002F52 35%, #326589 165%);
 `
 
 const ResultadoContainer = styled.div`
@@ -48,17 +48,21 @@ function Favoritos() {
 
   async function fetchFavoritos() {
     const favoritosDaAPI = await getFavoritos()
-    setFavoritos(favoritosDaAPI)
+    if(favoritosDaAPI){
+      setFavoritos(favoritosDaAPI)
+    } else {
+      setFavoritos([])
+    }
   }
 
   async function deletarFavorito(id) {
     await deleteFavorito(id)
     await fetchFavoritos()
-    alert(`Livro de id:${id} deletado!`)
+    alert(`Livro de id: ${id} deletado!`)
 }
 
   useEffect(() => {
-    fetchFavoritos([])
+    fetchFavoritos()
   }, [])
 
   return (
@@ -66,10 +70,13 @@ function Favoritos() {
         <Titulo>Aqui estão seus Livros Favoritos</Titulo>
           <ResultadoContainer>
       {favoritos.map( favorito => (
-        <Resultado onClick={() => deletarFavorito(favorito.id)}>
+        favorito && (
+        <Resultado key={favorito.id} onClick={() => deletarFavorito(favorito.id)}>
           <img src={livroImg}/>
           <p>{favorito.nome}</p>
-        </Resultado>))}
+        </Resultado>
+        )  
+      ))}
       </ResultadoContainer>
     </AppContainer>
   );
