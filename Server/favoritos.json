@@ -1,1 +1,14 @@
-[{"id":"5","nome":"Cangaceiro Javascript"}]
+[
+    {
+        "id": 1,
+        "nome": "Introduction to the Theory of Computation"
+    },
+    {
+        "id": 2,
+        "nome": "Clean Code: A Handbook of Agile Software Craftsmanship"
+    },
+    {
+        "id": 3,
+        "nome": "Design Patterns: Elements of Reusable Object-Oriented Software"
+    }
+]

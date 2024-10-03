@@ -1,34 +1,82 @@
 [
     {
-      "id": "4",
-      "nome": "Entendendo algoritmos"
+        "id": 1,
+        "nome": "Introduction to the Theory of Computation"
     },
     {
-      "id": "5",
-      "nome": "Cangaceiro Javascript"
+        "id": 2,
+        "nome": "Clean Code: A Handbook of Agile Software Craftsmanship"
     },
     {
-      "id": "7",
-      "nome": "Guia básico de C#"
+        "id": 3,
+        "nome": "Design Patterns: Elements of Reusable Object-Oriented Software"
     },
     {
-      "id": "8",
-      "nome": "Guia básico de JavaScript"
+        "id": 4,
+        "nome": "The Pragmatic Programmer: Your Journey to Mastery"
     },
     {
-      "id": "9",
-      "nome": "Código Limpo"
+        "id": 5,
+        "nome": "Artificial Intelligence: A Modern Approach"
     },
     {
-      "id": "10",
-      "nome": "JavaScript para iniciantes"
+        "id": 6,
+        "nome": "Introduction to Algorithms"
     },
     {
-      "id": "11",
-      "nome": "Conhecendo o python"
+        "id": 7,
+        "nome": "Computer Networking: A Top-Down Approach"
     },
     {
-      "id": "12",
-      "nome": "Imersão Alura"
+        "id": 8,
+        "nome": "Operating System Concepts"
+    },
+    {
+        "id": 9,
+        "nome": "Database System Concepts"
+    },
+    {
+        "id": 10,
+        "nome": "Computer Architecture: A Quantitative Approach"
+    },
+    {
+        "id": 11,
+        "nome": "The Art of Computer Programming"
+    },
+    {
+        "id": 12,
+        "nome": "Structure and Interpretation of Computer Programs"
+    },
+    {
+        "id": 13,
+        "nome": "Code: The Hidden Language of Computer Hardware and Software"
+    },
+    {
+        "id": 14,
+        "nome": "Computer Vision: Algorithms and Applications"
+    },
+    {
+        "id": 15,
+        "nome": "Machine Learning: A Probabilistic Perspective"
+    },
+    {
+        "id": 16,
+        "nome": "Deep Learning"
+    },
+    {
+        "id": 17,
+        "nome": "Digital Design and Computer Architecture"
+    },
+    {
+        "id": 18,
+        "nome": "The Algorithm Design Manual"
+    },
+    {
+        "id": 19,
+        "nome": "Computer Graphics: Principles and Practice"
+    },
+    {
+        "id": 20,
+        "nome": "Introduction to Machine Learning"
     }
-  ]
+]
