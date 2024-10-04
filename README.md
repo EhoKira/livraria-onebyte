@@ -14,11 +14,11 @@ Veja uma demonstração do projeto funcionando [assista no youtube](https://yout
 - Integração com MongoDB: Todas as informações são salvas e recuperadas de um banco de dados MongoDB.
 
 ## Tecnologias Utilizadas
-- Frontend: React.js
-- Backend: Node.js com Express
-- Banco de Dados: MongoDB
-- Gerenciamento de Estado: React Context API
-- Comunicação com Backend: Axios
+- Frontend: `React.js`
+- Backend: `Node.js` com `Express`
+- Banco de Dados: `MongoDB`
+- Gerenciamento de Estado: `React Context API`
+- Comunicação com Backend: `Axios`
 
 ## Banco de Dados
 O MongoDB foi escolhido para ser o banco de dados utilizado no projeto, por ser um banco de dados NoSQL altamente escalável e flexível, ideal para aplicações que necessitam de flexibilidade na modelagem de dados.
