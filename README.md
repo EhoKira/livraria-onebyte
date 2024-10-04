@@ -35,7 +35,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 ### Passo a Passo
 1. Clone este repositório.
    ```bash
-   git clone <repositorio-url>
+   git clone https://github.com/EhoKira/livraria-onebyte.git
    cd livraria-onebyte
    ```
 
