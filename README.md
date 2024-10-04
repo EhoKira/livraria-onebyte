@@ -40,39 +40,39 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
    ```
 
 2. Acesse a pasta do backend.
-```bash
-cd Server
-```
+   ```bash
+   cd Server
+   ```
 
 3. Instale as dependências.
-```bash
-npm install
-npm install nodemon
-npm install cors
-npm install mongoose
-npm install express
-```
+   ```bash
+   npm install
+   npm install nodemon
+   npm install cors
+   npm install mongoose
+   npm install express
+   ```
 
 4. Inicie o servidor.
-```bash
-npx nodemon app.js
-```
+   ```bash
+   npx nodemon app.js
+   ```
 
 ### Configuração do Frontend
 ### Passo a Passo
 1. Acesse a pasta do frontend.
-```bash
-cd Client
-```
+   ```bash
+   cd Client
+   ```
 
 2. Instale as dependências.
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 3. Inicie o Servidor.
-```bash
-npm run start
-```
+   ```bash
+   npm run start
+   ```
 
 ### Executando o Projeto
 1. Certifique-se de que o backend está rodando na `porta 5000` e o frontend na `porta 3000`.
